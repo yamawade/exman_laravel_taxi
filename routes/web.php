@@ -42,6 +42,7 @@ Route::get('/dashboard', 'App\Http\Controllers\DashBoardController@index')->name
 });
 
 Route::resource('clients',ClientdController::class);
+Route::resource('chauffeurs',ChauffeurController::class);
 
 
 
